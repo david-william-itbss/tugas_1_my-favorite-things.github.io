@@ -1,11 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-<h1>My Favorite Things</h1>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-h1{
-    font-family:'Times New Roman', Times, serif
+.judul{
+    text-align: center;
 }
-
+.subheader{
+    background-color: lightsteelblue;
+    padding: 10px;
+}
+header{
+    background-color: #90937c;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size:50px;
+}
+h2{
+    font-size:35px;
+}
+h3{
+    font-size:25px;
+}
+.container-hobi, .container-game, .container-lagu{
+    display: flex;
+    gap: 70px;
+}
+.container-game img:hover{
+    transform: scale(1.05);
+}
+.container-lagu img:hover{
+    transform: scale(1.05);
+}
+figcaption, li, p{
+    font-size: 17px;
+}
+footer{
+    background-color: #277ce0;
+    padding: 10px;
+}
 </style>
 </head>
+<body>
+    <header>
+        <h1>My Favorite Things</h1>
+        <nav style="font-size: 20px;">
+            <a href="#Hobi">Hobi</a> |
+            <a href="#Game">Video game</a> |
+            <a href="#Lagu">Lagu</a>
+        </nav>
+    </header>
+    <div class="subheader">
+        <h3>Pada halaman ini terdapat hal yang saya sukai seperti: Hobi, dan video game</h3>
+    </div>
+<br>
+<br>
+<section id="Hobi">
+    <h2 class="judul">Hobi</h2>
+    <div class="container-hobi">
+        <figure style="width: 400px;">
+            <img src="WhatsApp Image 2025-04-05 at 15.51.10_e2a4231e.jpg" width="400" height="300">
+            <figcaption>1. Hobi pertama adalah main video game, saya suka memainkan banyak video game di laptop saya</figcaption>
+        </figure>
+        <figure style="width: 800px;">
+            <div style="display: flex;">
+                <img src="WhatsApp Image 2025-04-05 at 17.15.22_1a3d303e.jpg" width="400" height="300">
+                <img src="WhatsApp Image 2025-04-05 at 15.57.40_ea7106e4.jpg" width="400" height="250">
+            </div>
+            <figcaption>2. Hobi kedua adalah koleksi mobil mainan, saya dari saat masih kecil suka mengkoleksi barang seperti mainan mobil.</figcaption> 
+        </figure>
+    </div>    
+</section>
+<br>
+<section id="Game">
+    <h2 class="judul">Vidio Game</h2>
+    <h3>1. Left 4 Dead 2</h3>
+        <figure style="width: 1000px;">
+            <div class="container-game">
+                <a href="https://store.steampowered.com/app/550/Left_4_Dead_2/">
+                    <img src="L4D2 game cover.jpg" width="400px" height="225px">
+                </a>
+                <a href="https://youtu.be/jNQg3uRxQcU">
+                <img src="Gambar game L4D2.png" width="400px" height="225px">
+                </a>
+            </div>
+            <figcaption>gambar di samping kiri akan membuka link steam, dan di samping kanan akan membawa ke vidio youtube tentang game tersebut</figcaption> 
+        </figure>
+    <p>Alasan saya menyukai game ini:</p>
+    <ul>
+        <li>gamenya dapat dimainkan secara offline, walaupun lebih baik dimainkan secara online dengan teman.</li>
+        <li>game lama sehingga tidak memiliki grafik visual yang memerlukan komputer yang sangat kuat.</li>
+        <li>game yang dapat dimodifikasi, dan memiliki komunitas yang aktif dalam modifikasi game tersebut.</li>
+    </ul>
+    <h3>2. Gear.Club Unlimited 2</h3>
+        <figure style="width: 1000px">
+            <div class="container-game">
+                <a href="https://youtu.be/XokbRhzqF3w?si=zTlmO_z7shCJKYlR">
+                    <img src="Gear club unlimited 2 game cover.jpg" width="400px" height="225px">
+                </a>
+                <a href="https://store.steampowered.com/app/1557860/GearClub_Unlimited_2__Ultimate_Edition/">
+                    <img src="Gear club unlimited 2 ulti edition cover.jpg" width="400px" height="225px">
+                </a>
+            </div>
+            <figcaption>mengklik gambar di samping kiri akan membuka trailer game dan di samping kanan akan membuka link steam</figcaption>
+        </figure>
+    <p>Alasan saya menyukai game ini:</p>
+    <ul>
+        <li>gamenya dapat dimainkan secara offline.</li>
+        <li>Memiliki harga yang tidak mahal.</li>
+        <li>saya menyukai game balapan.</li>
+    </ul>
+</section>
+<br>
+<section id="Lagu">
+    <h2 class="judul">Lagu</h2>
+        <figure style="width: 900px">
+            <div class="container-lagu">
+                <a href="https://music.youtube.com/watch?v=2xppos0pbvE&list=RDAMVM2xppos0pbvE">
+                    <img src="unnamed.jpg" width="300px" height="300px">
+                </a>
+                <a href="https://music.youtube.com/watch?v=q9I01iNFcL4">
+                    <img src="unnamed (1).jpg" width="300px" height="300px">
+                </a>
+                <a href="https://music.youtube.com/watch?v=ZNwyTjMPsM4">
+                    <img src="unnamed (2).jpg" width="300px" height="300px">
+                </a>
+            </div>
+            <figcaption>mengklik gambar akan membuka link lagu tersebut di youtube music</figcaption>
+        </figure>
+    <p>Alasan saya menyukai lagu-lagu tersebut</p>
+    <ul>
+        <li>Saya menyukai lagu dengan tempo yang cepat</li>
+        <li>walaupun saya mendengar banyak jenis lagu, genre EDM dan Rock adalah yang paling sering saya dengar</li>
+    </ul>
+</section>
+<br>
+<br>
+    <footer style="font-size: 20px;">
+        <p>Author: David William</p>
+        <P>Email: davidwilliam@itbss.ac.id</P>
+    </footer>
+</body>
+</html>
